@@ -72,7 +72,7 @@ export default class index extends Component {
         centerCoordinate={DEFAULT_CENTER_COORDINATE}
         onDidFinishLoadingMap={() => this.onDidFinishLoadingMap()}
         onRegionWillChange={this.onRegionWillChange}
-        onRegionDidChange={this.onRegionDidChange}
+        onRegionDidChange={this.onRegionDidChange} //onRegionDidChange {properties: {…}, geometry: {…}, type: "Feature"}
         styleURL={Mapbox.StyleURL.Dark}
         onLongPress={() => console.log('on long press')}
       />
